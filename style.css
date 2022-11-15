@@ -13,3 +13,49 @@ section {
 
 }
 
+.card-effect {
+	box-shadow: var(--none);
+	background-color: primary;
+	transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+	box-shadow: none;
+	transform: translateY(5px);
+}
+
+.iconbox1 {
+	width: 54px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: orange;
+	color: white;
+	font-size: 32px;
+	border-radius: 100px;
+}
+
+.iconbox2 {
+	width: 54px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: blue;
+	color: white;
+	font-size: 32px;
+	border-radius: 100px;
+}
+
+.iconbox3 {
+	width: 54px;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: purple;
+	color: white;
+	font-size: 32px;
+	border-radius: 100px;
+}
